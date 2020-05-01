@@ -3,7 +3,7 @@ require_relative '../array.rb'
 describe Array do
   describe '.group_numbers_by_sum_of_pairs' do
     context 'returns correct array' do
-
+      # TODO dry common cod
       it '[22, 3, 5, 0, 2, 2]' do
         a = [22, 3, 5, 0, 2, 2]
         b = a.group_numbers_by_sum_of_pairs(5)
